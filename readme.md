@@ -99,7 +99,7 @@ Javascript:
   All the data is passed in the following GET parameters: `query`,`limit`,`page`,`orderBy`,`ascending`,`byColumn`.
   You need to return a JSON object with two properties:
 
-  `data` `array` - An array of row objects with identical keys.
+  `data` `array` - An array of row objects with identical keys (change field name via `serverDataFieldName` option).
 
   `count` `number` - Total count before limit.
 
